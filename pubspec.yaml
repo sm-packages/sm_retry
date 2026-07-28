@@ -1,0 +1,17 @@
+name: sm_retry
+description: "Retry asynchronous functions with exponential backoff"
+homepage: https://github.com/shay-wong/flutter_sm_packages/tree/main/sm_retry
+issue_tracker: https://github.com/shay-wong/flutter_sm_packages/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+sm_retry%22
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.25.0
+
+topics:
+  - retry
+  - http
+  - network
+  - backoff
