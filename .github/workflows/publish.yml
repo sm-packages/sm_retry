@@ -7,8 +7,8 @@ on:
 
 jobs:
   publish:
-    # pub.dev requires the first version to be published manually.
-    if: github.ref_name != 'v1.0.0'
     permissions:
       id-token: write
-    uses: sm-packages/.github/.github/workflows/publish-pub-dev.yml@v1
+    uses: sm-packages/.github/.github/workflows/publish-pub-dev.yml@v3
+    with:
+      skip: true
