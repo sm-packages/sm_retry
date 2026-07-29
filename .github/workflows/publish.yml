@@ -8,7 +8,6 @@ on:
 jobs:
   publish:
     permissions:
+      contents: read
       id-token: write
-    uses: sm-packages/.github/.github/workflows/publish-pub-dev.yml@v3
-    with:
-      skip: true
+    uses: sm-packages/.github/.github/workflows/publish-pub-dev.yml@v4
