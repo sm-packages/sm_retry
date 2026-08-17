@@ -1,3 +1,7 @@
+## 1.0.1 - 2026-08-17
+
+- Restore the canonical Apache-2.0 license text for pub.dev recognition
+
 ## 1.0.0
 
 - Initial release

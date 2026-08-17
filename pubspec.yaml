@@ -3,7 +3,7 @@ description: "Retry asynchronous functions with exponential backoff"
 homepage: https://github.com/sm-packages/sm_retry
 repository: https://github.com/sm-packages/sm_retry
 issue_tracker: https://github.com/sm-packages/sm_retry/issues
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
